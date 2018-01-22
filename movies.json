@@ -1,0 +1,46 @@
+{
+  "films":[
+    {
+      "title":"Dom zly",
+      "year":"2009",
+      "filmGenre":"drama",
+      "director":{
+        "firstName":"Wojciech",
+        "lastName":"Smarzowski"
+      },
+      "actors":[
+        {
+          "firstName":"Arkadiusz",
+          "lastName":"Jakubik"
+        },
+        {
+          "firstName":"Marian",
+          "lastName":"Dzięgiel"
+        },
+        {
+          "firstName":"Kinga",
+          "lastName":"Preis"
+        }
+      ]
+    },
+    {
+      "title":"Nietykalni",
+      "year":"2011",
+      "filmGenre":"comedy",
+      "director":{
+        "first_name":"Olivier",
+        "lastName":"Nakache"
+      },
+      "actors":[
+        {
+          "firstName":"François",
+          "lastName":"Cluzet"
+        },
+        {
+          "firstName":"Omar",
+          "lastName":"Sy"
+        }
+      ]
+    }
+  ]
+}
