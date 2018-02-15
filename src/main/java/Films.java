@@ -22,4 +22,8 @@ public class Films {
     public List<Actor> getAllActors() {
         return films.stream().flatMap(f -> f.getActors().stream()).collect(Collectors.toList());
     }
+
+    public List<Actor> removeDuplicates() {
+        return films.stream().flatMap(f -> f.getActors().stream()).distinct().collect(Collectors.toList());
+    }
 }
